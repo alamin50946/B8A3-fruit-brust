@@ -38,7 +38,9 @@
       body {
         font-family: "Lato", sans-serif;
       }
-      
+      .bg-image {
+        background-image: url('./images/banner1.png');
+      }
       
       
     </style>
@@ -326,9 +328,9 @@
     </div>
     </div>
     </div>
-    <div class=" absolute bg-red-800 w-full  mx-auto h-28 -mt-24">
+    <!-- <div class=" absolute bg-red-800 w-full  mx-auto h-28 -mt-24">
       gllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
-            </div>
+            </div> -->
    
   </section>
 
@@ -339,7 +341,7 @@
     
     <!-- slide section end -->
      <!-- countdown section start -->
-     <section class="container mx-auto gap-16 flex flex-col md:flex-col lg:flex-row">
+     <section class="container mx-auto gap-16 flex flex-col md:flex-col lg:flex-row my-8">
       <div class="flex-1 px-8 lg:p-0 text-center lg:text-left">
         <h1 class="text-5xl font-bold mb-5">Deal of the day</h1>
         <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -404,7 +406,269 @@
     
     </section>
      <!-- countdown section end -->
+
+    <!-- price section start -->
+<section class="container mx-auto grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4">
+  <div >
     
+<div class="lg:w-64 p-4 py-6 bg-white shadow-lg rounded-2xl">
+  <div class="flex flex-col items-center justify-center">
+      <div class="relative w-20 h-20 mb-3 ">
+         
+        <img src="./images/fruit6.png" alt="">
+      </div>
+      <p class="mt-4 mb-4 text-xl font-bold">
+        12.90$ - 18.85$
+      </p>
+      <p class="px-2 text-xs text-center text-gray-400">
+        Apple
+      </p>
+      <div class="rating">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" checked />
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+      
+      
+       <!-- Open the modal using ID.showModal() method -->
+<button class="btn btn-link no-underline text-black" onclick="my_modal_1.showModal()">Details</button>
+<dialog id="my_modal_1" class="modal">
+  <form method="dialog" class="">
+    <div class="w-72 p-4 py-6 bg-white shadow-lg rounded-2xl">
+      <div class="flex flex-col items-center justify-center">
+          <div class="relative w-20 h-20 mb-8 ">
+             
+            <img src="./images/fruit6.png" alt="">
+          </div>
+          
+          <p class="px-2 text-lg text-center font-bold">
+            Apple
+          </p>
+          <p class="text-xs px-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-" class="mask mask-star-2 bg-orange-400" />
+          </div>
+          
+      <!-- if there is a button in form, it will close the modal -->
+      <div class="flex gap-2 mt-5"><button class="btn">Close</button>
+        <button class="btn btn-primary bg-btn-color">Buy now</button></div>
+    </div>
+  </form>
+</dialog>
+     
+
+  </div>
+</div>
+
+
+  </div>
+  <div>
+    
+<div class="lg:w-64 p-4 py-6 bg-white shadow-lg rounded-2xl">
+  <div class="flex flex-col items-center justify-center">
+      <div class="relative w-20 h-20 mb-3 ">
+         
+        <img src="./images/fruit7.png" alt="">
+      </div>
+      <p class="mt-4 mb-4 text-xl font-bold">
+        12.90$ - 18.85$
+      </p>
+      <p class="px-2 text-xs text-center text-gray-400">
+        Orange
+      </p>
+      <div class="rating">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" checked/>
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+      
+      
+       <!-- Open the modal using ID.showModal() method -->
+<button class="btn btn-link no-underline text-black" onclick="my_modal_2.showModal()">Details</button>
+<dialog id="my_modal_2" class="modal">
+  <form method="dialog" class="">
+    <div class="w-72 p-4 py-6 bg-white shadow-lg rounded-2xl">
+      <div class="flex flex-col items-center justify-center">
+          <div class="relative w-20 h-20 mb-8 ">
+             
+            <img src="./images/fruit7.png" alt="">
+          </div>
+          
+          <p class="px-2 text-lg text-center font-bold">
+            Orange
+          </p>
+          <p class="text-xs px-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          </div>
+          
+      <!-- if there is a button in form, it will close the modal -->
+      <div class="flex gap-2 mt-5"><button class="btn">Close</button>
+        <button class="btn btn-primary bg-btn-color">Buy now</button></div>
+    </div>
+  </form>
+</dialog>
+     
+
+  </div>
+</div>
+
+
+  </div>
+  <div >
+    
+<div class="lg:w-64 p-4 py-6 bg-white shadow-lg rounded-2xl">
+  <div class="flex flex-col items-center justify-center">
+      <div class="relative w-20 h-20 mb-3 ">
+         
+        <img src="./images/fruit8.png" alt="">
+      </div>
+      <p class="mt-4 mb-4 text-xl font-bold">
+        12.90$ - 18.85$
+      </p>
+      <p class="px-2 text-xs text-center text-gray-400">
+        Red Dragon
+      </p>
+      <div class="rating">
+        <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+      
+      
+       <!-- Open the modal using ID.showModal() method -->
+<button class="btn btn-link no-underline text-black" onclick="my_modal_3.showModal()">Details</button>
+<dialog id="my_modal_3" class="modal">
+  <form method="dialog" class="">
+    <div class="w-72 p-4 py-6 bg-white shadow-lg rounded-2xl">
+      <div class="flex flex-col items-center justify-center">
+          <div class="relative w-20 h-20 mb-8 ">
+             
+            <img src="./images/fruit8.png" alt="">
+          </div>
+          
+          <p class="px-2 text-lg text-center font-bold">
+            Red Dragon
+          </p>
+          <p class="text-xs px-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          <div class="rating">
+            <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          </div>
+          
+      <!-- if there is a button in form, it will close the modal -->
+      <div class="flex gap-2 mt-5"><button class="btn">Close</button>
+        <button class="btn btn-primary bg-btn-color">Buy now</button></div>
+    </div>
+  </form>
+</dialog>
+     
+
+  </div>
+</div>
+
+
+  </div>
+  <div>
+    
+<div class="lg:w-64 p-4 py-6 bg-white shadow-lg rounded-2xl">
+  <div class="flex flex-col items-center justify-center">
+      <div class="relative w-20 h-20 mb-3 ">
+         
+        <img src="./images/fruit9.png" alt="">
+      </div>
+      <p class="mt-4 mb-4 text-xl font-bold">
+        12.90$ - 18.85$
+      </p>
+      <p class="px-2 text-xs text-center text-gray-400">
+        Banana
+      </p>
+      <div class="rating">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+      
+      
+       <!-- Open the modal using ID.showModal() method -->
+<button class="btn btn-link no-underline text-black" onclick="my_modal_4.showModal()">Details</button>
+<dialog id="my_modal_4" class="modal">
+  <form method="dialog" class="">
+    <div class="w-72 p-4 py-6 bg-white shadow-lg rounded-2xl">
+      <div class="flex flex-col items-center justify-center">
+          <div class="relative w-20 h-20 mb-8 ">
+             
+            <img src="./images/fruit9.png" alt="">
+          </div>
+          
+          <p class="px-2 text-lg text-center font-bold">
+            Banana
+          </p>
+          <p class="text-xs px-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+          <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          </div>
+          
+      <!-- if there is a button in form, it will close the modal -->
+      <div class="flex gap-2 mt-5"><button class="btn">Close</button>
+        <button class="btn btn-primary bg-btn-color">Buy now</button></div>
+    </div>
+  </form>
+</dialog>
+     
+
+  </div>
+</div>
+
+
+  </div>
+  
+</section>
+<div class="container mx-auto flex justify-center my-5">
+  <button class="btn btn primary bg-btn-color text-nav-font">
+    Shop All
+  </button>
+</div>
+
+    <!-- price section end -->
+    <!-- meet section start -->
+    <section>
+      <div class="hero min-h-screen">
+        <div class="bg-image"></div>
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- meet section end -->
 
 
       
