@@ -62,7 +62,7 @@
   </head>
   <body>
     <!-- header section start -->
-    <header>
+    <header class="mb-72 md:mb-0">
       <nav class="rounded-full bg-btn-color my-5 container mx-auto">
         <div
           class="px-2 py-2 mx-auto  md:px-24 lg:px-8"
@@ -150,35 +150,21 @@
                   ></path>
                 </svg>
               </button>
-              Mobile menu dropdown
-              <div class="absolute top-0 left-0 w-full">
+              <!-- Mobile menu dropdown -->
+              <div class="absolute top-0 left-0 w-full md:hidden">
                 <div class="p-5 bg-white border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
-                    <div>
+                    <div class="bg-red-500 rounded-full px-5 py-2">
                       <a
                         href="/"
                         aria-label="Company"
                         title="Company"
                         class="inline-flex items-center"
                       >
-                        <svg
-                          class="w-8 text-deep-purple-accent-400"
-                          viewBox="0 0 24 24"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-miterlimit="10"
-                          stroke="currentColor"
-                          fill="none"
-                        >
-                          <rect x="3" y="1" width="7" height="12"></rect>
-                          <rect x="3" y="17" width="7" height="6"></rect>
-                          <rect x="14" y="1" width="7" height="6"></rect>
-                          <rect x="14" y="11" width="7" height="12"></rect>
-                        </svg>
+                        <img src="./images/logo.png" class="w-8" alt="">
                         <span
                           class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase"
-                          >Company</span
+                          >Fruit Burst</span
                         >
                       </a>
                     </div>
@@ -205,7 +191,7 @@
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                          >Product</a
+                          >Home</a
                         >
                       </li>
                       <li>
@@ -214,7 +200,7 @@
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                          >Features</a
+                          >About Us</a
                         >
                       </li>
                       <li>
@@ -223,7 +209,7 @@
                           aria-label="Product pricing"
                           title="Product pricing"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                          >Pricing</a
+                          >Shop</a
                         >
                       </li>
                       <li>
@@ -232,19 +218,20 @@
                           aria-label="Sign in"
                           title="Sign in"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                          >Sign in</a
+                          >All Fruits</a
                         >
                       </li>
-                      <li>
-                        <a
-                          href="/"
-                          class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
-                        >
-                          Sign up
-                        </a>
+                      <li class="" >
+                        
+                        
+                        
+                        <label for="search"> <i class="fa-solid fa-magnifying-glass"></i></label>
+                        <input type="text" id="search" name="search" class="border-2 border-red-600 rounded-xl py-2" placeholder="Enter your search term">
+                        <input type="submit" value="">
+                         
+                       
                       </li>
+                     
                     </ul>
                   </nav>
                 </div>
